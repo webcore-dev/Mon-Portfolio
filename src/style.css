@@ -14,14 +14,15 @@
   --font-sora: "Sora", sans-serif;
   --font-arvo: "Arvo", sans-serif;
   --font-playfaire: "Playfair Display", sans-serif;
+  --breakpoint-xs: 29rem;
   --breakpoint-2xs: 22rem;
-  --breakpoint-xs: 30rem;
+  --breakpoint-2md: 55rem;
 
   /* LIGHT MODE */
   --color-principal: #4f46e5;
   --color-hover-principal: #4f46e5;
   --color-page-background: #f8fafc;
-  --color-card: #ffffff;
+  --color-card: #f1f1f1;
   --color-border: #e2e8f0;
   --color-title: #1e293b;
   --color-texte-secondaire: #475569;
