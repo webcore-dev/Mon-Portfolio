@@ -20,22 +20,22 @@
 
   /* LIGHT MODE */
   --color-principal: #4f46e5;
-  --color-hover-principal: #4f46e5;
+  --color-hover-principal: #4338ca;
   --color-page-background: #f8fafc;
   --color-card: #f1f1f1;
   --color-border: #e2e8f0;
   --color-title: #1e293b;
-  --color-texte-secondaire: #475569;
+  --color-texte-secondaire: #334155;
   --color-icone-secondaire: #64748b;
 
   /* DARK MODE */
   --color-dark-principal: #4f46e5;
-  --color-dark-hover-principal: #4f46e5;
+  --color-dark-hover-principal: #4338ca;
   --color-dark-page-background: #020617;
   --color-dark-card: #0f172a;
   --color-dark-border: #1e293b;
   --color-dark-title: #f1f1f1;
-  --color-dark-texte-secondaire: #94a3b8;
+  --color-dark-texte-secondaire: #cbd5e1;
   --color-dark-header-border: #1e293b;
 }
 

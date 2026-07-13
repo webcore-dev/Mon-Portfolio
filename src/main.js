@@ -16,12 +16,12 @@ window.addEventListener('scroll', () => {
 
             activeLinks.forEach(navLinks => {
                 navLinks.classList.remove('text-white');
-                navLinks.classList.remove('bg-indigo-500');
+                navLinks.classList.remove('bg-indigo-600');
             });
 
             mobileActiveLinks.forEach(navLinks => {
                 navLinks.classList.remove('text-white');
-                navLinks.classList.remove('bg-indigo-500');
+                navLinks.classList.remove('bg-indigo-600');
             });
 
             activeLinks[index].classList.remove('text-indigo-900');
@@ -30,7 +30,7 @@ window.addEventListener('scroll', () => {
             activeLinks[index].classList.remove('dark:hover:bg-slate-900');
             activeLinks[index].classList.remove('hover:border-indigo-100');
             activeLinks[index].classList.remove('dark:hover:border-dark-header-border');
-            activeLinks[index].classList.add('bg-indigo-500');
+            activeLinks[index].classList.add('bg-indigo-600');
             activeLinks[index].classList.add('text-white');
 
             mobileActiveLinks[index].classList.remove('text-indigo-900');
@@ -39,12 +39,12 @@ window.addEventListener('scroll', () => {
             mobileActiveLinks[index].classList.remove('dark:hover:bg-slate-900');
             mobileActiveLinks[index].classList.remove('hover:border-indigo-100');
             mobileActiveLinks[index].classList.remove('dark:hover:border-dark-header-border');
-            mobileActiveLinks[index].classList.add('bg-indigo-500');
+            mobileActiveLinks[index].classList.add('bg-indigo-600');
             mobileActiveLinks[index].classList.add('text-white');
         } else {
 
             activeLinks[0].classList.add('text-white');
-            activeLinks[0].classList.add('bg-indigo-500');
+            activeLinks[0].classList.add('bg-indigo-600');
             activeLinks[0].classList.remove('dark:text-indigo-600');
             activeLinks[0].classList.remove('hover:bg-indigo-50');
             activeLinks[0].classList.remove('dark:hover:bg-slate-900');
@@ -52,7 +52,7 @@ window.addEventListener('scroll', () => {
             activeLinks[0].classList.remove('dark:hover:border-dark-header-border');
 
             mobileActiveLinks[0].classList.add('text-white');
-            mobileActiveLinks[0].classList.add('bg-indigo-500');
+            mobileActiveLinks[0].classList.add('bg-indigo-600');
             mobileActiveLinks[0].classList.remove('dark:text-indigo-600');
             mobileActiveLinks[0].classList.remove('hover:bg-indigo-50');
             mobileActiveLinks[0].classList.remove('dark:hover:bg-slate-900');
@@ -65,7 +65,7 @@ window.addEventListener('scroll', () => {
             activeLinks[index].classList.add('dark:hover:bg-slate-900');
             activeLinks[index].classList.add('hover:border-indigo-100');
             activeLinks[index].classList.add('dark:hover:border-dark-header-border');
-            activeLinks[index].classList.remove('bg-indigo-500');
+            activeLinks[index].classList.remove('bg-indigo-600');
             activeLinks[index].classList.remove('text-white');
 
             mobileActiveLinks[index].classList.add('text-indigo-900');
@@ -74,7 +74,7 @@ window.addEventListener('scroll', () => {
             mobileActiveLinks[index].classList.add('dark:hover:bg-slate-900');
             mobileActiveLinks[index].classList.add('hover:border-indigo-100');
             mobileActiveLinks[index].classList.add('dark:hover:border-dark-header-border');
-            mobileActiveLinks[index].classList.remove('bg-indigo-500');
+            mobileActiveLinks[index].classList.remove('bg-indigo-600');
             mobileActiveLinks[index].classList.remove('text-white');
         };
     });
