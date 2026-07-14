@@ -136,3 +136,40 @@ mobileMenuButton.addEventListener('click', () => {
     const isOpen = mobileMenu.classList.contains('translate-y-22');
     mobileMenuButtonIcon.classList = isOpen ? 'fa-solid fa-x' : 'fa-solid fa-bars';
 });
+
+// ======= ANIMATION ON SCROLL ====== //
+const showFadeLeft = document.querySelectorAll('.show-fade-left');
+const showFadeRight = document.querySelectorAll('.show-fade-right');
+const showFadeUp = document.querySelectorAll('.show-fade-up');
+const showFadeDown = document.querySelectorAll('.show-fade-down');
+const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            if(entry.target.classList.contains('show-fade-left')) {
+                entry.target.classList.add('show-left');
+            }
+            if(entry.target.classList.contains('show-fade-right')) {
+                entry.target.classList.add('show-right');
+            }
+            if(entry.target.classList.contains('show-fade-up')) {
+                entry.target.classList.add('show-up');
+            }
+            if(entry.target.classList.contains('show-fade-down')) {
+                entry.target.classList.add('show-down');
+            }
+        }
+    });
+});
+
+showFadeLeft.forEach(scrollLeft => {
+    observer.observe(scrollLeft);
+});
+showFadeRight.forEach(scrollRight => {
+    observer.observe(scrollRight);
+});
+showFadeUp.forEach(scrollUp => {
+    observer.observe(scrollUp);
+});
+showFadeDown.forEach(scrollDown => {
+    observer.observe(scrollDown);
+});
