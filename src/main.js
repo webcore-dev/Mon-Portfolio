@@ -148,7 +148,7 @@ let sectionObserver = new IntersectionObserver((sectionEntries) => {
         }
     });
 }, {
-    threshold: .5
+    threshold: .3
 });
 
 pageSection.forEach((pages) => {
